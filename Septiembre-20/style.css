@@ -1,0 +1,133 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    /* Sugerencia para que el esquema se vea proporcional */
+    width: 970px;
+    margin: 0 auto;
+}
+
+.navBar {
+    background-color: rgb(60, 60, 60);
+    height: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+
+.searchBar {
+    background-color: rgb(250, 200, 150);
+    height: 96px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 32px;
+    box-sizing: border-box;
+}
+
+.mainContent {
+    display: flex;
+    flex-direction: row;
+}
+
+.textWhite {
+    color: white;
+}
+
+.textOrange {
+    color: orange;
+}
+
+.btn {
+    padding: 2px 8px;
+    box-shadow: 2px 2px 0px 0px black;
+    border: 2px solid black;
+}
+
+.btnOrange {
+    background-color: orange;
+    color: black;
+}
+
+.btnBlue {
+    background-color: rgb(20, 70, 150);
+    color: white;
+}
+
+.searchInput {
+    background-color: red;
+    display: flex;
+}
+
+.searchInput>input {
+    height: 24px;
+    border-radius: 0;
+}
+
+.searchInput>button {
+    height: 28px;
+    box-sizing: border-box;
+}
+
+.dessertCard {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.dessertCard>img {
+    height: 64px;
+    background-color: white;
+    border-radius: 50%;
+}
+
+.dessertCard>h4 {
+    font-weight: normal;
+}
+
+
+.primaryContent {
+    background-color: lightgray;
+    flex: 3;
+    padding: 16px;
+}
+
+.sideContent {
+    background-color: rebeccapurple;
+    flex: 2;
+}
+
+.primaryContent>h1 {
+    color: rgb(20, 70, 150);
+    text-align: center;
+}
+
+.dessertContent {
+    display: flex;
+    flex-direction: column;
+}
+
+.dessertContent>img {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+}
+
+.desserContentInfo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.desserContentInfo>div {
+    display: flex;
+    align-items: center;
+}
+
+.desserContentInfo>div>img {
+    height: 24px;
+}
