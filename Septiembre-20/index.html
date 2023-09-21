@@ -14,14 +14,14 @@
         <div class="navBar">
             <h1 class="textWhite">Just<span class="textOrange">Dessert</span></h1>
             <div>
-                <button class="btn btnOrange">Join</button>
+                <button class="btn btnOrange" onclick="destroy(this)">Join</button>
                 <button class="btn btnBlue">Login</button>
             </div>
         </div>
         <div class="searchBar">
             <div class="searchInput">
-                <input type="text">
-                <button class="btn btnBlue">GO</button>
+                <input type="text" id="searchInputElement">
+                <button class="btn btnBlue" id="searchBtn">GO</button>
             </div>
             <div class="dessertCard">
                 <img src="./imgs/cake.png" alt="cake">
@@ -48,14 +48,41 @@
                     <div class="desserContentInfo">
                         <p>Orange Jelly Tart</p>
                         <div>
-                            <img src="./imgs/heart.png" alt="heart">
+                            <img src="./imgs/heart.png" alt="heart" onclick="like(this)">
                             <span>68</span>
-                        </div>                        
+                        </div>
                     </div>
                     <p>By: <a href="">Yuripiano</a></p>
                 </div>
+                <p><a href="#">See Full Recipe</a></p>
             </div>
-            <div class="sideContent"></div>
+            <div class="sideContent">
+
+                <h3>Recomended for you:</h3>
+                <hr class="divider">
+                <div class="dessertContent">
+                    <img src="./imgs/macarons.jpg" alt="macarons">
+                    <div class="desserContentInfo">
+                        <p>Macarons</p>
+                        <div>
+                            <img src="./imgs/heart.png" alt="heart" onclick="like(this)">
+                            <span>212</span>
+                        </div>
+                    </div>
+                    <p>By: <a href="">EmilieW</a></p>
+                </div>
+                <div class="dessertContent">
+                    <img src="./imgs/creme-brulee.jpg" alt="creme-brulee">
+                    <div class="desserContentInfo">
+                        <p>Créme Brulee</p>
+                        <div>
+                            <img src="./imgs/heart.png" alt="heart" onclick="like(this)">
+                            <span>33</span>
+                        </div>
+                    </div>
+                    <p>By: <a href="">Marisa G</a></p>
+                </div>
+            </div>
         </div>
     </div>
 

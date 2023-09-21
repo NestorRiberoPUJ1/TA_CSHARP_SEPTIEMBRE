@@ -5,7 +5,7 @@
 
 .container {
     /* Sugerencia para que el esquema se vea proporcional */
-    width: 970px;
+    width: 720px;
     margin: 0 auto;
 }
 
@@ -32,6 +32,7 @@
 .mainContent {
     display: flex;
     flex-direction: row;
+    margin-top: 16px;
 }
 
 .textWhite {
@@ -59,7 +60,6 @@
 }
 
 .searchInput {
-    background-color: red;
     display: flex;
 }
 
@@ -91,14 +91,14 @@
 
 
 .primaryContent {
-    background-color: lightgray;
-    flex: 3;
+    background-color: rgb(240, 240, 240);
+    flex: 10;
     padding: 16px;
 }
 
 .sideContent {
-    background-color: rebeccapurple;
-    flex: 2;
+    flex: 6;
+    margin-left: 16px;
 }
 
 .primaryContent>h1 {
@@ -109,12 +109,13 @@
 .dessertContent {
     display: flex;
     flex-direction: column;
+    margin-bottom: 8px;
 }
 
 .dessertContent>img {
     width: 100%;
-    padding: 8px;
     box-sizing: border-box;
+    margin-bottom: 8px;
 }
 
 .desserContentInfo {
@@ -130,4 +131,13 @@
 
 .desserContentInfo>div>img {
     height: 24px;
+}
+
+.primaryContent>p {
+    text-align: center;
+}
+
+
+.divider {
+    margin: 8px 0px;
 }
