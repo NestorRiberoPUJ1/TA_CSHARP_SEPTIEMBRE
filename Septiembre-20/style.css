@@ -83,6 +83,8 @@
     height: 64px;
     background-color: white;
     border-radius: 50%;
+    padding: 4px;
+    box-sizing: border-box;
 }
 
 .dessertCard>h4 {
@@ -112,10 +114,22 @@
     margin-bottom: 8px;
 }
 
-.dessertContent>img {
+.imgContainer{
     width: 100%;
     box-sizing: border-box;
     margin-bottom: 8px;
+    overflow: hidden;
+    height: fit-content;
+
+}
+
+.imgContainer>img {
+    width: 100%;
+}
+
+.imgContainer>img:hover{
+    transform: scale(1.1);
+    filter: blur(2px);
 }
 
 .desserContentInfo {
@@ -131,7 +145,30 @@
 
 .desserContentInfo>div>img {
     height: 24px;
+    margin-right: 4px;
 }
+
+.desserContentInfo>div>img:active {
+    animation-name: like;
+    animation-duration: 100ms;
+}
+
+@keyframes like {
+    0% {
+        transform: scale(1);
+    }
+
+    50% {
+        transform: scale(1.5);
+    }
+
+    100% {
+        transform: scale(1);
+    }
+}
+
+
+
 
 .primaryContent>p {
     text-align: center;
