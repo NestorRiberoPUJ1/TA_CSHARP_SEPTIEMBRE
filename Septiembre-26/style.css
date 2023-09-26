@@ -1,0 +1,13 @@
+* {
+    padding: 0px;
+    margin: 0px;
+}
+
+body {
+    padding: 16px;
+}
+
+#dogPicture {
+    height: 200px;
+    outline: 4px solid black;
+}
