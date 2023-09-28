@@ -1,0 +1,14 @@
+.bg-green {
+    background-color: #075e54;
+}
+
+.img-container {
+    height: 52px;
+    width: 52px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+
+.text-xs {
+    font-size: x-small;
+}
