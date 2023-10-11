@@ -1,0 +1,15 @@
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.AssemblyInfoInputs.cache
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.AssemblyInfo.cs
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\bin\Debug\net6.0\Octubre-11.exe
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\bin\Debug\net6.0\Octubre-11.deps.json
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\bin\Debug\net6.0\Octubre-11.runtimeconfig.json
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\bin\Debug\net6.0\Octubre-11.dll
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\bin\Debug\net6.0\Octubre-11.pdb
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.dll
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\refint\Octubre-11.dll
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.pdb
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\Octubre-11.genruntimeconfig.cache
+C:\Users\Usuario\Documents\GitHub\TA_CSHARP_SEPTIEMBRE\Octubre-11\obj\Debug\net6.0\ref\Octubre-11.dll
