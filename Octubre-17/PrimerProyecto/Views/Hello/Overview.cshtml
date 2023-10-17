@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Hello!</title>
+    <link rel="stylesheet" href="~/css/style.css" />
+</head>
+
+<body>
+    <h1>OVERVIEW ROUTE</h1>
+    <h2> @ViewBag.Example</h2>
+
+    <img src="~/assets/mario.png" alt="mario">
+
+    <ul>
+        <li><a href="#algun en especifico">VER</a></li>
+    </ul>
+
+    <ol>
+        @{
+            List<string> StringList = new List<string>() { "one", "two", "three", "four" };
+            foreach (string word in StringList)
+            {
+                // We can render HTML from within C# code!
+                // We just have to remember to bring @ back if we want to render variables
+                @if (word.Length < 4)
+                {
+                    <li>@word numero pequeño</li>
+                }
+
+            }
+        }
+    </ol>
+
+    <ul>
+        @{
+            @* iterador *@
+            foreach (string animal in ViewBag.animales)
+            {
+                @* Recorrer el elemento iterado *@
+                <li>@animal</li>
+            }
+        }
+    </ul>
+
+</body>
+
+</html>
