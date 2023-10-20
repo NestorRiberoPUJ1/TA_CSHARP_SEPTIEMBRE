@@ -1,0 +1,25 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <form action="/comment" method="post">
+        <div>
+            <label for="username">Your Name:</label>
+            <input name="username" id="username" type="text">
+        </div>
+        <div>
+            <label for="location">Dojo Location</label>
+            <select name="location" id="location">
+                <option value="San Jose">San Jose</option>
+                <option value="Burbank">Burbank</option>
+                <option value="Valley">Valley</option>
+            </select>
+        </div>
+
+        <div>
+            <label for="comment">Comment</label>
+            <textarea name="comment" id="comment"></textarea>
+        </div>
+    </form>
+</div>
