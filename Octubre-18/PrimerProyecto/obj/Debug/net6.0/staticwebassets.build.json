@@ -1,0 +1,54 @@
+{
+  "Version": 1,
+  "Hash": "cd55tL4mFvH7izmDOUp3zs97J5KsrdH3kpy03nucjGo=",
+  "Source": "PrimerProyecto",
+  "BasePath": "_content/PrimerProyecto",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "PrimerProyecto\\wwwroot",
+      "Source": "PrimerProyecto",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\GitHub\\TA_CSHARP_SEPTIEMBRE\\Octubre-18\\PrimerProyecto\\wwwroot\\",
+      "BasePath": "_content/PrimerProyecto",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\Usuario\\Documents\\GitHub\\TA_CSHARP_SEPTIEMBRE\\Octubre-18\\PrimerProyecto\\wwwroot\\assets\\mario.png",
+      "SourceId": "PrimerProyecto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\GitHub\\TA_CSHARP_SEPTIEMBRE\\Octubre-18\\PrimerProyecto\\wwwroot\\",
+      "BasePath": "_content/PrimerProyecto",
+      "RelativePath": "assets/mario.png",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\assets\\mario.png"
+    },
+    {
+      "Identity": "C:\\Users\\Usuario\\Documents\\GitHub\\TA_CSHARP_SEPTIEMBRE\\Octubre-18\\PrimerProyecto\\wwwroot\\css\\style.css",
+      "SourceId": "PrimerProyecto",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\Usuario\\Documents\\GitHub\\TA_CSHARP_SEPTIEMBRE\\Octubre-18\\PrimerProyecto\\wwwroot\\",
+      "BasePath": "_content/PrimerProyecto",
+      "RelativePath": "css/style.css",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\css\\style.css"
+    }
+  ]
+}
