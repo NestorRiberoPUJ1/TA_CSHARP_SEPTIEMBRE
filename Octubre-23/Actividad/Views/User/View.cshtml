@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+@model User
+
+<div class="text-center">
+
+    <h2>Here is a user<h2>
+            @* Try using just @Model first to see what happens *@
+            <h2>Name: @Model.FirstName @Model.LastName<h2>
+                    <h2>Age: @Model.Age</h2>
+</div>
