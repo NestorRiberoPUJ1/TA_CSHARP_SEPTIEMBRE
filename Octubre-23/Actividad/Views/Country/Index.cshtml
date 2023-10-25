@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "County";
+}
+@model int
+
+<div class="text-center">
+    <h1> PAGINA PARA VER PAISES</h1>
+<h1>@ViewBag.Example</h1>
+    @{
+        List<string> StringList = new List<string>() { "one", "two", "three", "four" };
+        foreach (string word in StringList)
+        {
+            // We can render HTML from within C# code!
+            // We just have to remember to bring @ back if we want to render variables
+            <p>@word</p>
+            @if (word.Length < 4)
+            {
+                <p>@word is a short word</p>
+            }
+        }
+    }
+
+</div>
