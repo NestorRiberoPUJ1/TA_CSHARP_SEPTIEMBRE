@@ -11,6 +11,7 @@ public class User
 
     [Required(ErrorMessage = "LastName is required!")]
     [MinLength(3, ErrorMessage = "Message must be at least 3 characters in length.")]
+    [NoZNames]
     public string LastName { get; set; }
 
     [Range(1, 100, ErrorMessage = "Age must be greater than 0")]

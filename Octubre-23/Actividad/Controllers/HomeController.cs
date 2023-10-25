@@ -15,6 +15,18 @@ public class HomeController : Controller
 
     public IActionResult Index()
     {
+
+        Country chile = new Country()
+        {
+            id = 10,
+            name = "Chile",
+            created_at = "2023-10-24",
+            updated_at = "2023-10-24",
+        };
+
+        chile.printName();
+
+
         return View();
     }
 

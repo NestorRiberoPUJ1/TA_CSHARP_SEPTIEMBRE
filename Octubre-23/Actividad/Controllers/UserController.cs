@@ -13,6 +13,8 @@ public class UserController : Controller
         ViewBag.MyNum = 9;
 
         int myViewModelNum = 12;
+        
+        HttpContext.Session.SetString("UserName", "Samantha");
 
         return View("~/Views/User/Index.cshtml", myViewModelNum);
     }
@@ -26,6 +28,11 @@ public class UserController : Controller
             LastName = "King",
             Age = 21,
         };
+        
+        // To retrieve a string from session we use ".GetString"
+        string LocalVariable = HttpContext.Session.GetString("UserName");
+        ViewBag.MyNum = LocalVariable;
+        
         return View("~/Views/User/View.cshtml", newUser);
     }
 
