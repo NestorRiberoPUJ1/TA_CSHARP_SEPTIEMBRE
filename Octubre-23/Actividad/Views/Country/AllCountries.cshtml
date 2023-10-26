@@ -1,0 +1,23 @@
+@{
+    ViewData["Title"] = "County";
+}
+@model List<Country>
+
+<div class="text-center">
+    <h1> PAGINA PARA VER TODOS LOS PAISES</h1>
+    <hr>
+
+    @foreach (Country pais in Model)
+    {
+        <div>
+            <h1>@pais.name</h1>
+            <h1>#@pais.id</h1>
+            <img src=@pais.image alt="flag" height="200px">
+        </div>
+        <hr>
+    }
+
+    <div id="countriesContainer"></div>
+
+    <script src="~/js/ViewCountries.js" asp-append-version="true"></script>
+</div>
