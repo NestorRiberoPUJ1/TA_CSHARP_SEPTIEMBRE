@@ -5,11 +5,12 @@ namespace Actividad.Models;
 
 public class Country
 {
-    public int id { get; set; }
+    [Key]
+    public int CountryId { get; set; }
     public string name { get; set; }
     public string created_at { get; set; }
-    public string updated_at { get; set; }
-    public string image { get; set; }
+    public DateTime updated_at { get; set; } = DateTime.Now;
+    public DateTime image { get; set; } = DateTime.Now;
 
 
 

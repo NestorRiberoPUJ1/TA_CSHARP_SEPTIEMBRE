@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v6.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v6.0": {
+      "DirectorioAPI/1.0.0": {
+        "runtime": {
+          "DirectorioAPI.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "DirectorioAPI/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}
