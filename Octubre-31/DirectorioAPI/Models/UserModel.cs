@@ -5,6 +5,10 @@ namespace DirectorioAPI.Models;
 
 public class User
 {
+
+    [Key]
+    public int UserId { get; set; }
+
     [Required(ErrorMessage = "FirstName is required!")]
     [MinLength(3, ErrorMessage = "Message must be at least 3 characters in length.")]
     public string FirstName { get; set; }
